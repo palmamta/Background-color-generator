@@ -1,0 +1,52 @@
+body,html{
+	height: 100%;
+	width: 100%;
+}
+
+
+.faded{
+	color: rgb(232,232,232);
+}
+header.startup {
+	background-position: center;
+	background-image: url('photography.jpg');
+	background-size: cover;
+	height: 100%;
+
+}
+header.startup hr{
+	margin-top: 400px;
+	margin-bottom: 60px;
+}
+header.startup h1{
+	font-size: 2rem;
+}
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 300px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.btn-xl {
+  padding: 1rem 1rem; 
+}
+
+.btn-primary {
+  background-color: #c200cf;
+  border-color: #ff7b25; 
+ 
+}
+
+.btn-primary:hover {
+  background-color: #ee4b08;
+  border-color: #ee4b08;
+ 
+}
+#button{
+	position: absolute;
+	top: 80%;
+	right: 50%;
+	
+}
