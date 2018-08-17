@@ -1,0 +1,82 @@
+#gradient{
+	font-family: 'Helvetica', sans-serif;
+	background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(0, 0, 255));
+	flex-wrap: left;
+	font-family: sans-serif;
+	text-align: center;
+	background-position: right top;
+	margin: 25px 50px 75px 100px;
+
+
+
+}
+#h1{
+	text-transform: uppercase;
+	font-family: italic;
+	text-shadow: 1px 2px 3px 4px;
+	text-shadow: 4px 4px #eee;
+;
+
+}
+#h2{
+	text-shadow: 2px 3px #FFFFFF;
+
+}
+#textArea{
+	height: 100px;
+	width: 200px;
+	border: solid black;
+}
+#RandomBtn{
+	 background-position: center;
+    display: inline-block;
+    width: 20%;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    padding: 18px 28px;
+    font-size: 14px;
+    cursor: pointer;
+
+    border : solid black;
+}
+
+#RandomBtn:hover {
+    background-color: #fff;
+    color: black;
+}
+#copy{
+	background-position: center;
+    display: inline-block;
+    width: 20%;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    padding: 18px 28px;
+    font-size: 14px;
+    cursor: pointer;
+
+    border : solid black;
+}
+
+#copy:hover {
+    background-color: #fff;
+    color: black;
+}
+
+.color1 .color2{
+	border :4px solid black;
+}
+
+#colorpad{
+	padding: 5%;
+	width: 50%;
+}
+.buttons{
+	padding: 5%;
+	width: 100%;
+}
+#colorpad{
+	padding-top : 5%;
+	width: 50%;
+}
