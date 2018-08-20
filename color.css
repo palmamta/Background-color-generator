@@ -11,6 +11,7 @@
 
 }
 #h1{
+	background-position: fixed;
 	text-transform: uppercase;
 	font-family: italic;
 	text-shadow: 1px 2px 3px 4px;
@@ -71,12 +72,7 @@
 #colorpad{
 	padding: 5%;
 	width: 50%;
+	background-position: absolute;
+
 }
-.buttons{
-	padding: 5%;
-	width: 100%;
-}
-#colorpad{
-	padding-top : 5%;
-	width: 50%;
-}
+
