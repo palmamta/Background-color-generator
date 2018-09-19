@@ -1,22 +1,24 @@
 #gradient{
-	font-family: 'Helvetica', sans-serif;
+	position: relative;
 	background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(0, 0, 255));
 	flex-wrap: left;
-	font-family: sans-serif;
+	font-family: 'Handlee', cursive;
 	text-align: center;
-	background-position: right top;
-	margin: 25px 50px 75px 100px;
-
-
+	background-position: fixed;
+    margin: 20px;
 
 }
 #h1{
 	background-position: fixed;
 	text-transform: uppercase;
-	font-family: italic;
+	font-family: 'Spirax', cursive;
 	text-shadow: 1px 2px 3px 4px;
 	text-shadow: 4px 4px #eee;
-;
+	border-width: 10px;
+	border-color: linear-gradient(to right, rgb(60, 184, 237), rgb(178, 125, 193));
+	border-style: double;
+	border-radius: 10px;
+	font-size: 40px;
 
 }
 #h2{
@@ -27,13 +29,14 @@
 	height: 100px;
 	width: 200px;
 	border: solid black;
+	padding: 10px;
 }
 #RandomBtn{
-	 background-position: center;
+	background-position: fixed;
     display: inline-block;
     width: 20%;
     border: none;
-    background-color: #4CAF50;
+    background-color: rgb( 51, 104, 255 );
     color: white;
     padding: 18px 28px;
     font-size: 14px;
@@ -46,20 +49,19 @@
     background-color: #fff;
     color: black;
 }
+
 #copy{
 	background-position: center;
     display: inline-block;
     width: 20%;
     border: none;
-    background-color: #4CAF50;
+    background-color: rgb(51, 104, 255);
     color: white;
     padding: 18px 28px;
     font-size: 14px;
     cursor: pointer;
-
     border : solid black;
 }
-
 #copy:hover {
     background-color: #fff;
     color: black;
@@ -71,8 +73,9 @@
 
 #colorpad{
 	padding: 5%;
-	width: 50%;
-	background-position: absolute;
+	background-position: fixed;
+	margin: 70px;
 
 }
+
 
